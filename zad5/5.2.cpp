@@ -14,6 +14,7 @@ int main()
         scanf("%i",(arr+i));
     }
 
+    printf("Tablica wejsciowa:\n");
     for(int i = 0; i < y;i++)
     {
         for(int j = 0; j < x;j++)
@@ -22,6 +23,8 @@ int main()
         }
         printf("\n");
     }
+    printf("\n");
+
 
     for(int i = 0; i < y;i++)
     {
@@ -36,7 +39,8 @@ int main()
         *(arr+i) = *(arrTemp+i);
     }
 
-   for(int i = 0; i < y;i++)
+    printf("Tablica wejsciowa:\n");
+    for(int i = 0; i < y;i++)
     {
         for(int j = 0; j < x;j++)
         {
